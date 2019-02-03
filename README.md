@@ -30,11 +30,11 @@ In this repo, we have created a sample DX project to reproduce the field dependa
   `sfdx force:org:open -u dx`
   - Go to setup, naviagte to objects.
   - Open Carousel Slide object.
-  - Click Field dependancy buttton in Custom Fields section.
+  - Click PickList Field in Custom Fields section.
   - Click New  
-  - Select Caption Position as Controlling Field and Text Alignment as Dependent Field.
-  - Include random values and save the record.
-6. Now get back to the DX project folder and Create Package.xml file with only these dependant fields.
+  - Add new value with 245 characters.
+  - Create ReordType and include the picklist field.
+6. Now get back to the DX project folder and Create Package.xml file with only these picklist field and recordtype.
 7. Run the follwoing command to retreive source data based on the Package.xml
   ```
   sfdx force:mdapi:retrieve -r ./mdapipkg  -k ./package.xml -u dx
@@ -52,4 +52,4 @@ In this repo, we have created a sample DX project to reproduce the field dependa
 **Error  mdapipkg/objects/cloudx_cms__SS_Carousel_Slide__c.object  cloudx_cms__SS_Carousel_Slide__c.cloudx_cms__image  Picklist value is too long for the max size of 255**
 
 ## Temporary fix for this issue:
-Create the dependancy manually in the scratch org and deploy your changes.
+Replace encoded picklist value in recordtype with its original value and deploy your changes.
