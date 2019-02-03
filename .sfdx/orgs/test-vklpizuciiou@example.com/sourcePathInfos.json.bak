@@ -1,0 +1,152 @@
+[
+    [
+        "/Users/hari/Documents/SFDX/dx/testApp/force-app",
+        {
+            "state": "n",
+            "sourcePath": "/Users/hari/Documents/SFDX/dx/testApp/force-app",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1547371689988,
+            "changeTime": 1547371689988,
+            "contentHash": "b28b7af69320201d1cf206ebf28373980add1451",
+            "isWorkspace": false,
+            "isArtifactRoot": true
+        }
+    ],
+    [
+        "/Users/hari/Documents/SFDX/dx/testApp/force-app/main",
+        {
+            "state": "n",
+            "sourcePath": "/Users/hari/Documents/SFDX/dx/testApp/force-app/main",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1547371689988,
+            "changeTime": 1547371689988,
+            "contentHash": "7505d64a54e061b7acd54ccd58b49dc43500b635",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/hari/Documents/SFDX/dx/testApp/force-app/main/default",
+        {
+            "state": "n",
+            "sourcePath": "/Users/hari/Documents/SFDX/dx/testApp/force-app/main/default",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 128,
+            "modifiedTime": 1547662053878,
+            "changeTime": 1547662053878,
+            "contentHash": "b83529a79471406ddba075a6206ed1dcab87946a",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/hari/Documents/SFDX/dx/testApp/force-app/main/default/aura",
+        {
+            "state": "n",
+            "sourcePath": "/Users/hari/Documents/SFDX/dx/testApp/force-app/main/default/aura",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 64,
+            "modifiedTime": 1547371689988,
+            "changeTime": 1547371689988,
+            "contentHash": "da39a3ee5e6b4b0d3255bfef95601890afd80709",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/hari/Documents/SFDX/dx/testApp/force-app/main/default/objects",
+        {
+            "state": "n",
+            "sourcePath": "/Users/hari/Documents/SFDX/dx/testApp/force-app/main/default/objects",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1547662053878,
+            "changeTime": 1547662053878,
+            "contentHash": "02d3ed4d78e340b69235a63b0560c33c336a6dbe",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/hari/Documents/SFDX/dx/testApp/force-app/main/default/objects/cloudx_cms__SS_Carousel_Slide__c",
+        {
+            "state": "n",
+            "sourcePath": "/Users/hari/Documents/SFDX/dx/testApp/force-app/main/default/objects/cloudx_cms__SS_Carousel_Slide__c",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 96,
+            "modifiedTime": 1547662053878,
+            "changeTime": 1547662053878,
+            "contentHash": "70f132fe13e692866a539996a6b9a05b46076a07",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/hari/Documents/SFDX/dx/testApp/force-app/main/default/objects/cloudx_cms__SS_Carousel_Slide__c/fields",
+        {
+            "state": "n",
+            "sourcePath": "/Users/hari/Documents/SFDX/dx/testApp/force-app/main/default/objects/cloudx_cms__SS_Carousel_Slide__c/fields",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 128,
+            "modifiedTime": 1547662053881,
+            "changeTime": 1547662053881,
+            "contentHash": "a0ec6ac26b29f1766665c143c54022e20fbf682f",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/hari/Documents/SFDX/dx/testApp/force-app/main/default/objects/cloudx_cms__SS_Carousel_Slide__c/fields/cloudx_cms__Text_Alignment__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/hari/Documents/SFDX/dx/testApp/force-app/main/default/objects/cloudx_cms__SS_Carousel_Slide__c/fields/cloudx_cms__Text_Alignment__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1971,
+            "modifiedTime": 1547662053880,
+            "changeTime": 1547662053880,
+            "contentHash": "d6c1efdcdaa4139d8a8670ca7885a0d92a62d3e7",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/hari/Documents/SFDX/dx/testApp/force-app/main/default/objects/cloudx_cms__SS_Carousel_Slide__c/fields/cloudx_cms__Text_Position__c.field-meta.xml",
+        {
+            "state": "n",
+            "sourcePath": "/Users/hari/Documents/SFDX/dx/testApp/force-app/main/default/objects/cloudx_cms__SS_Carousel_Slide__c/fields/cloudx_cms__Text_Position__c.field-meta.xml",
+            "isDirectory": false,
+            "isMetadataFile": true,
+            "size": 1444,
+            "modifiedTime": 1547662053881,
+            "changeTime": 1547662053881,
+            "contentHash": "43a7ce8bd8b7b33c043516690276fbf4c3c38749",
+            "isWorkspace": false,
+            "isArtifactRoot": false
+        }
+    ],
+    [
+        "/Users/hari/Documents/SFDX/dx/testApp",
+        {
+            "state": "n",
+            "sourcePath": "/Users/hari/Documents/SFDX/dx/testApp",
+            "isDirectory": true,
+            "isMetadataFile": false,
+            "size": 512,
+            "modifiedTime": 1547659864664,
+            "changeTime": 1547659864664,
+            "contentHash": "3d2edb6816bf65359522985aebf61f5be8c2d4a3",
+            "isWorkspace": true,
+            "isArtifactRoot": false
+        }
+    ]
+]

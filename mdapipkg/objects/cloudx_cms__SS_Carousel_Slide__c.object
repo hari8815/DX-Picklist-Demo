@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomObject xmlns="http://soap.sforce.com/2006/04/metadata">
+
+    <allowInChatterGroups>false</allowInChatterGroups>
+    <compactLayoutAssignment>SYSTEM</compactLayoutAssignment>
+    <deploymentStatus>Deployed</deploymentStatus>
+    <deprecated>false</deprecated>
+    <description>Carousel Slide</description>
+    <enableActivities>false</enableActivities>
+    <enableBulkApi>true</enableBulkApi>
+    <enableFeeds>false</enableFeeds>
+    <enableHistory>false</enableHistory>
+    <enableReports>false</enableReports>
+    <enableSearch>false</enableSearch>
+    <enableSharing>true</enableSharing>
+    <enableStreamingApi>true</enableStreamingApi>
+    <fields>
+        <fullName>Picklist1__c</fullName>
+        <externalId>false</externalId>
+        <label>Picklist1</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>Val1</fullName>
+                    <default>false</default>
+                    <label>Val1</label>
+                </value>
+                <value>
+                    <fullName>Val2</fullName>
+                    <default>false</default>
+                    <label>Val2</label>
+                </value>
+                <value>
+                    <fullName>This is my test pick-list label to reproduce dx deployment issue.This is my test pick-list label to reproduce dx deployment issue.This is my test to ** reproduce dx deployment issue.(i.e, Test data value/string) &amp; test a piclist value exceeds 255</fullName>
+                    <default>false</default>
+                    <label>This is my test pick-list label to reproduce dx deployment issue.This is my test pick-list label to reproduce dx deployment issue.This is my test to ** reproduce dx deployment issue.(i.e, Test data value/string) &amp; test a piclist value exceeds 255</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <fields>
+        <fullName>cloudx_cms__Description_Size__c</fullName>
+        <deprecated>false</deprecated>
+        <description>Choose an appropriate Body text size.</description>
+        <externalId>false</externalId>
+        <inlineHelpText>Choose an appropriate Body text size.</inlineHelpText>
+        <label>Body Text Size</label>
+        <required>false</required>
+        <trackTrending>false</trackTrending>
+        <type>Picklist</type>
+        <valueSet>
+            <restricted>true</restricted>
+            <valueSetDefinition>
+                <sorted>false</sorted>
+                <value>
+                    <fullName>regular</fullName>
+                    <default>true</default>
+                    <label>regular</label>
+                </value>
+                <value>
+                    <fullName>small</fullName>
+                    <default>false</default>
+                    <label>small</label>
+                </value>
+                <value>
+                    <fullName>This is my test pick-list label to reproduce dx deployment issue.This is my test pick-list label to reproduce dx deployment issue.This is my test to ** reproduce dx deployment issue.(i.e, Test data value/string) &amp; test a piclist value exceeds 255</fullName>
+                    <default>false</default>
+                    <label>This is my test pick-list label to reproduce dx deployment issue.This is my test pick-list label to reproduce dx deployment issue.This is my test to ** reproduce dx deployment issue.(i.e, Test data value/string) &amp; test a piclist value exceeds 255</label>
+                </value>
+            </valueSetDefinition>
+        </valueSet>
+    </fields>
+    <label>Carousel Slide</label>
+    <nameField>
+        <displayFormat>CSLIDE-{000000}</displayFormat>
+        <label>Name</label>
+        <type>AutoNumber</type>
+    </nameField>
+    <pluralLabel>Carousel Slides</pluralLabel>
+    <recordTypes>
+        <fullName>cloudx_cms__image</fullName>
+        <active>true</active>
+        <description>Image Banner</description>
+        <label>Image</label>
+        <picklistValues>
+            <picklist>Picklist1__c</picklist>
+            <values>
+                <fullName>This is my test pick-list label to reproduce dx deployment issue%2EThis is my test pick-list label to reproduce dx deployment issue%2EThis is my test to ** reproduce dx deployment issue%2E%28i%2Ee%2C Test data value%2Fstring%29 %26 test a piclist value exceeds 255</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Val1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Val2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cloudx_cms__Description_Size__c</picklist>
+            <values>
+                <fullName>This is my test pick-list label to reproduce dx deployment issue%2EThis is my test pick-list label to reproduce dx deployment issue%2EThis is my test to ** reproduce dx deployment issue%2E%28i%2Ee%2C Test data value%2Fstring%29 %26 test a piclist value exceeds 255</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>regular</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>small</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+     </recordTypes>   
+    <recordTypes>
+        <fullName>cloudx_cms__video</fullName>
+        <active>true</active>
+        <description>Video Banner</description>
+        <label>Video</label>
+        <picklistValues>
+            <picklist>Picklist1__c</picklist>
+            <values>
+                <fullName>This is my test pick-list label to reproduce dx deployment issue%2EThis is my test pick-list label to reproduce dx deployment issue%2EThis is my test to ** reproduce dx deployment issue%2E%28i%2Ee%2C Test data value%2Fstring%29 %26 test a piclist value exceeds 255</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Val1</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>Val2</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues>
+        <picklistValues>
+            <picklist>cloudx_cms__Description_Size__c</picklist>
+            <values>
+                <fullName>This is my test pick-list label to reproduce dx deployment issue%2EThis is my test pick-list label to reproduce dx deployment issue%2EThis is my test to ** reproduce dx deployment issue%2E%28i%2Ee%2C Test data value%2Fstring%29 %26 test a piclist value exceeds 255</fullName>
+                <default>false</default>
+            </values>
+            <values>
+                <fullName>regular</fullName>
+                <default>true</default>
+            </values>
+            <values>
+                <fullName>small</fullName>
+                <default>false</default>
+            </values>
+        </picklistValues> 
+    </recordTypes>
+    <searchLayouts/>
+    <sharingModel>ControlledByParent</sharingModel>
+    <visibility>Public</visibility>
+</CustomObject>
