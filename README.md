@@ -1,5 +1,5 @@
 # SFDX  Deployment Issue.
-In this repo, we have created a sample DX project to reproduce the field dependancy deployment issue. 
+In this repo, we have created a sample DX project to reproduce the picklist too long issue. 
 
 ## Prerequisites 
 1. Salesfore CLI 
@@ -47,9 +47,9 @@ In this repo, we have created a sample DX project to reproduce the field dependa
   ```
   sfdx force:source:push -u s1
   ```
-10. You may get the follwoing deployment error due the dependant fields.
+10. You may get the follwoing deployment error due the recordtype picklist value has encoded strings, which increases 255 character limit.
 
 **Error  mdapipkg/objects/cloudx_cms__SS_Carousel_Slide__c.object  cloudx_cms__SS_Carousel_Slide__c.cloudx_cms__image  Picklist value is too long for the max size of 255**
 
 ## Temporary fix for this issue:
-Replace encoded picklist value in recordtype with its original value and deploy your changes.
+manually replace encoded picklist value in recordtype with its original value and deploy your changes.
