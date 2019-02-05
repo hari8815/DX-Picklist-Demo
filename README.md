@@ -1,5 +1,5 @@
 # SFDX  Deployment Issue.
-In this repo, we have created a sample DX project to reproduce the picklist too long issue. 
+To reproduce the issue regarding Picklist Field value too long(exceeds 255). This issue is not specific to DX, but still happens with Force.com migration utility.
 
 ## Prerequisites 
 1. Salesfore CLI 
