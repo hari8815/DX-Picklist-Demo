@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomField xmlns="http://soap.sforce.com/2006/04/metadata">
+    <fullName>Picklist1__c</fullName>
+    <externalId>false</externalId>
+    <label>Picklist1</label>
+    <required>false</required>
+    <trackTrending>false</trackTrending>
+    <type>Picklist</type>
+    <valueSet>
+        <restricted>true</restricted>
+        <valueSetDefinition>
+            <sorted>false</sorted>
+            <value>
+                <fullName>Val1</fullName>
+                <default>false</default>
+                <label>Val1</label>
+            </value>
+            <value>
+                <fullName>Val2</fullName>
+                <default>false</default>
+                <label>Val2</label>
+            </value>
+            <value>
+                <fullName>This is my test pick-list label to reproduce dx deployment issue.This is my test pick-list label to reproduce dx deployment issue.This is my test to ** reproduce dx deployment issue.(i.e, Test data value/string) &amp; test a piclist value exceeds 255</fullName>
+                <default>false</default>
+                <label>This is my test pick-list label to reproduce dx deployment issue.This is my test pick-list label to reproduce dx deployment issue.This is my test to ** reproduce dx deployment issue.(i.e, Test data value/string) &amp; test a piclist value exceeds 255</label>
+            </value>
+        </valueSetDefinition>
+    </valueSet>
+</CustomField>
